@@ -80,9 +80,7 @@ function App() {
         <button disabled={disabled} onClick={resetInput}>
           reset input
         </button>
-        <button disabled={disabled} onClick={resetResult}>
-          reset result
-        </button>
+        <button onClick={resetResult}>reset result</button>
       </form>
     </div>
   );
